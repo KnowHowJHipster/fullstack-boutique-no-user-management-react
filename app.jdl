@@ -1,0 +1,18 @@
+application {
+  config {
+    baseName Boutique
+    packageName org.iqkv.boutique
+    authenticationType jwt
+    prodDatabaseType postgresql
+    buildTool gradle
+    clientFramework react
+    enableTranslation true
+    nativeLanguage en
+    languages [en, ru, fr, it]
+    skipClient false
+    skipServer false
+    testFrameworks  [cypress, cucumber]
+    skipUserManagement true
+    reactive true
+  }
+}

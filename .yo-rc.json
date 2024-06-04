@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "baseName": "Boutique",
+    "buildTool": "gradle",
+    "clientFramework": "react",
+    "devServerPort": 9060,
+    "enableTranslation": true,
+    "entities": [],
+    "jhipsterVersion": "8.5.0",
+    "jwtSecretKey": "MmQ1OWNmZmJlODdhOTlmMzQxYTc5ZTYwOTA3NDQ1NWZlMzcyZGVkMDZhZjY0OGM5Y2M5MDE2MzUzN2UxODIwNGI3MTc1ZWIxNGU0NzJmMjQ0NmZjN2I4NTdkZTBmZDg1MjE1NDA3ZGM5NWZjZDYxYjZmNjBhMTYxNmQ0MzUwYWQ=",
+    "languages": ["en", "ru", "fr", "it"],
+    "nativeLanguage": "en",
+    "packageFolder": "org/iqkv/boutique",
+    "packageName": "org.iqkv.boutique",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress", "cucumber"]
+  }
+}
